@@ -1,0 +1,828 @@
+{
+ "loop-bukhari": [
+  {
+   "src": "/work/loop-bukhari/1.jpg",
+   "width": 1172,
+   "height": 842,
+   "built": false
+  },
+  {
+   "src": "/work/loop-bukhari/2.jpg",
+   "width": 1448,
+   "height": 1086,
+   "built": true
+  },
+  {
+   "src": "/work/loop-bukhari/3.jpg",
+   "width": 1800,
+   "height": 1201,
+   "built": false
+  },
+  {
+   "src": "/work/loop-bukhari/4.jpg",
+   "width": 960,
+   "height": 1280,
+   "built": true
+  },
+  {
+   "src": "/work/loop-bukhari/5.jpg",
+   "width": 1800,
+   "height": 1200,
+   "built": false
+  },
+  {
+   "src": "/work/loop-bukhari/6.jpg",
+   "width": 1600,
+   "height": 900,
+   "built": true
+  },
+  {
+   "src": "/work/loop-bukhari/7.jpg",
+   "width": 1508,
+   "height": 848,
+   "built": false
+  },
+  {
+   "src": "/work/loop-bukhari/8.jpg",
+   "width": 1023,
+   "height": 1537,
+   "built": true
+  },
+  {
+   "src": "/work/loop-bukhari/9.jpg",
+   "width": 1800,
+   "height": 1006,
+   "built": false
+  }
+ ],
+ "loop-badar": [
+  {
+   "src": "/work/loop-badar/1.jpg",
+   "width": 1536,
+   "height": 1024,
+   "built": false
+  },
+  {
+   "src": "/work/loop-badar/2.jpg",
+   "width": 1536,
+   "height": 1024,
+   "built": false
+  },
+  {
+   "src": "/work/loop-badar/3.jpg",
+   "width": 768,
+   "height": 1024,
+   "built": true
+  },
+  {
+   "src": "/work/loop-badar/4.jpg",
+   "width": 1536,
+   "height": 1024,
+   "built": false
+  },
+  {
+   "src": "/work/loop-badar/5.jpg",
+   "width": 1536,
+   "height": 1024,
+   "built": false
+  },
+  {
+   "src": "/work/loop-badar/6.jpg",
+   "width": 768,
+   "height": 1024,
+   "built": true
+  }
+ ],
+ "loop-johar": [
+  {
+   "src": "/work/loop-johar/1.jpg",
+   "width": 1600,
+   "height": 900,
+   "built": false
+  },
+  {
+   "src": "/work/loop-johar/2.jpg",
+   "width": 1600,
+   "height": 900,
+   "built": false
+  },
+  {
+   "src": "/work/loop-johar/3.jpg",
+   "width": 969,
+   "height": 1624,
+   "built": true
+  },
+  {
+   "src": "/work/loop-johar/4.jpg",
+   "width": 1600,
+   "height": 900,
+   "built": false
+  },
+  {
+   "src": "/work/loop-johar/5.jpg",
+   "width": 1600,
+   "height": 900,
+   "built": false
+  },
+  {
+   "src": "/work/loop-johar/6.jpg",
+   "width": 1200,
+   "height": 1600,
+   "built": true
+  },
+  {
+   "src": "/work/loop-johar/7.jpg",
+   "width": 1600,
+   "height": 900,
+   "built": false
+  }
+ ],
+ "loop-north-nazimabad": [
+  {
+   "src": "/work/loop-north-nazimabad/1.jpg",
+   "width": 1600,
+   "height": 900,
+   "built": false
+  },
+  {
+   "src": "/work/loop-north-nazimabad/2.jpg",
+   "width": 1600,
+   "height": 900,
+   "built": false
+  },
+  {
+   "src": "/work/loop-north-nazimabad/3.jpg",
+   "width": 736,
+   "height": 1600,
+   "built": true
+  },
+  {
+   "src": "/work/loop-north-nazimabad/4.jpg",
+   "width": 1600,
+   "height": 900,
+   "built": false
+  },
+  {
+   "src": "/work/loop-north-nazimabad/5.jpg",
+   "width": 1600,
+   "height": 900,
+   "built": false
+  },
+  {
+   "src": "/work/loop-north-nazimabad/6.jpg",
+   "width": 736,
+   "height": 1600,
+   "built": true
+  }
+ ],
+ "loop-dolmen": [
+  {
+   "src": "/work/loop-dolmen/1.jpg",
+   "width": 1347,
+   "height": 946,
+   "built": false
+  },
+  {
+   "src": "/work/loop-dolmen/2.jpg",
+   "width": 1448,
+   "height": 1086,
+   "built": false
+  },
+  {
+   "src": "/work/loop-dolmen/3.jpg",
+   "width": 1470,
+   "height": 1070,
+   "built": false
+  },
+  {
+   "src": "/work/loop-dolmen/4.jpg",
+   "width": 1058,
+   "height": 770,
+   "built": false
+  }
+ ],
+ "loop-heuser": [
+  {
+   "src": "/work/loop-heuser/1.jpg",
+   "width": 1274,
+   "height": 718,
+   "built": false
+  },
+  {
+   "src": "/work/loop-heuser/2.jpg",
+   "width": 1672,
+   "height": 941,
+   "built": false
+  },
+  {
+   "src": "/work/loop-heuser/3.jpg",
+   "width": 1672,
+   "height": 941,
+   "built": false
+  },
+  {
+   "src": "/work/loop-heuser/4.jpg",
+   "width": 1672,
+   "height": 941,
+   "built": false
+  }
+ ],
+ "loop-bahria": [
+  {
+   "src": "/work/loop-bahria/1.jpg",
+   "width": 1672,
+   "height": 941,
+   "built": false
+  },
+  {
+   "src": "/work/loop-bahria/2.jpg",
+   "width": 1672,
+   "height": 941,
+   "built": false
+  },
+  {
+   "src": "/work/loop-bahria/3.jpg",
+   "width": 1672,
+   "height": 941,
+   "built": false
+  },
+  {
+   "src": "/work/loop-bahria/4.jpg",
+   "width": 1672,
+   "height": 941,
+   "built": false
+  },
+  {
+   "src": "/work/loop-bahria/5.jpg",
+   "width": 1402,
+   "height": 1122,
+   "built": false
+  },
+  {
+   "src": "/work/loop-bahria/6.jpg",
+   "width": 1672,
+   "height": 941,
+   "built": false
+  }
+ ],
+ "loop-gulgasht": [
+  {
+   "src": "/work/loop-gulgasht/1.jpg",
+   "width": 902,
+   "height": 664,
+   "built": false
+  },
+  {
+   "src": "/work/loop-gulgasht/2.jpg",
+   "width": 1320,
+   "height": 930,
+   "built": false
+  },
+  {
+   "src": "/work/loop-gulgasht/3.jpg",
+   "width": 1320,
+   "height": 930,
+   "built": false
+  },
+  {
+   "src": "/work/loop-gulgasht/4.jpg",
+   "width": 1320,
+   "height": 930,
+   "built": false
+  },
+  {
+   "src": "/work/loop-gulgasht/5.jpg",
+   "width": 1342,
+   "height": 1012,
+   "built": false
+  },
+  {
+   "src": "/work/loop-gulgasht/6.jpg",
+   "width": 1320,
+   "height": 930,
+   "built": false
+  }
+ ],
+ "loop-iqra": [
+  {
+   "src": "/work/loop-iqra/1.jpg",
+   "width": 1324,
+   "height": 1188,
+   "built": false
+  },
+  {
+   "src": "/work/loop-iqra/2.jpg",
+   "width": 1672,
+   "height": 940,
+   "built": false
+  },
+  {
+   "src": "/work/loop-iqra/3.jpg",
+   "width": 1309,
+   "height": 1202,
+   "built": false
+  },
+  {
+   "src": "/work/loop-iqra/4.jpg",
+   "width": 1381,
+   "height": 1139,
+   "built": false
+  }
+ ],
+ "od-loop-jinnah-icon": [
+  {
+   "src": "/work/od-loop-jinnah-icon/1.jpg",
+   "width": 1600,
+   "height": 900,
+   "built": false
+  },
+  {
+   "src": "/work/od-loop-jinnah-icon/2.jpg",
+   "width": 1600,
+   "height": 900,
+   "built": false
+  },
+  {
+   "src": "/work/od-loop-jinnah-icon/3.jpg",
+   "width": 1514,
+   "height": 1039,
+   "built": true
+  },
+  {
+   "src": "/work/od-loop-jinnah-icon/4.jpg",
+   "width": 1536,
+   "height": 864,
+   "built": false
+  },
+  {
+   "src": "/work/od-loop-jinnah-icon/5.jpg",
+   "width": 1383,
+   "height": 922,
+   "built": false
+  },
+  {
+   "src": "/work/od-loop-jinnah-icon/6.jpg",
+   "width": 1280,
+   "height": 960,
+   "built": true
+  },
+  {
+   "src": "/work/od-loop-jinnah-icon/7.jpg",
+   "width": 1440,
+   "height": 810,
+   "built": false
+  },
+  {
+   "src": "/work/od-loop-jinnah-icon/8.jpg",
+   "width": 960,
+   "height": 1280,
+   "built": true
+  }
+ ],
+ "od-loop-tipu": [
+  {
+   "src": "/work/od-loop-tipu/1.jpg",
+   "width": 1415,
+   "height": 793,
+   "built": false
+  },
+  {
+   "src": "/work/od-loop-tipu/2.jpg",
+   "width": 1600,
+   "height": 900,
+   "built": false
+  },
+  {
+   "src": "/work/od-loop-tipu/3.jpg",
+   "width": 1600,
+   "height": 900,
+   "built": false
+  },
+  {
+   "src": "/work/od-loop-tipu/4.jpg",
+   "width": 1600,
+   "height": 900,
+   "built": false
+  },
+  {
+   "src": "/work/od-loop-tipu/5.jpg",
+   "width": 1600,
+   "height": 900,
+   "built": false
+  },
+  {
+   "src": "/work/od-loop-tipu/6.jpg",
+   "width": 1600,
+   "height": 900,
+   "built": false
+  }
+ ],
+ "overdose-sialkot": [
+  {
+   "src": "/work/overdose-sialkot/1.jpg",
+   "width": 1122,
+   "height": 1402,
+   "built": false
+  },
+  {
+   "src": "/work/overdose-sialkot/2.jpg",
+   "width": 1536,
+   "height": 1024,
+   "built": false
+  },
+  {
+   "src": "/work/overdose-sialkot/3.jpg",
+   "width": 1536,
+   "height": 1024,
+   "built": false
+  },
+  {
+   "src": "/work/overdose-sialkot/4.jpg",
+   "width": 1536,
+   "height": 1024,
+   "built": false
+  },
+  {
+   "src": "/work/overdose-sialkot/5.jpg",
+   "width": 1536,
+   "height": 1024,
+   "built": false
+  },
+  {
+   "src": "/work/overdose-sialkot/6.jpg",
+   "width": 1536,
+   "height": 1024,
+   "built": false
+  }
+ ],
+ "overdose-civic-avenue": [
+  {
+   "src": "/work/overdose-civic-avenue/1.jpg",
+   "width": 1338,
+   "height": 753,
+   "built": false
+  },
+  {
+   "src": "/work/overdose-civic-avenue/2.jpg",
+   "width": 1338,
+   "height": 753,
+   "built": false
+  },
+  {
+   "src": "/work/overdose-civic-avenue/3.jpg",
+   "width": 1338,
+   "height": 753,
+   "built": false
+  },
+  {
+   "src": "/work/overdose-civic-avenue/4.jpg",
+   "width": 1338,
+   "height": 753,
+   "built": false
+  },
+  {
+   "src": "/work/overdose-civic-avenue/5.jpg",
+   "width": 1338,
+   "height": 753,
+   "built": false
+  },
+  {
+   "src": "/work/overdose-civic-avenue/6.jpg",
+   "width": 1338,
+   "height": 753,
+   "built": false
+  }
+ ],
+ "overdose-new-blue-area": [
+  {
+   "src": "/work/overdose-new-blue-area/1.jpg",
+   "width": 1280,
+   "height": 759,
+   "built": false
+  },
+  {
+   "src": "/work/overdose-new-blue-area/2.jpg",
+   "width": 1041,
+   "height": 1511,
+   "built": true
+  },
+  {
+   "src": "/work/overdose-new-blue-area/3.jpg",
+   "width": 1536,
+   "height": 1024,
+   "built": false
+  },
+  {
+   "src": "/work/overdose-new-blue-area/4.jpg",
+   "width": 1114,
+   "height": 1411,
+   "built": true
+  },
+  {
+   "src": "/work/overdose-new-blue-area/5.jpg",
+   "width": 1536,
+   "height": 1024,
+   "built": false
+  },
+  {
+   "src": "/work/overdose-new-blue-area/6.jpg",
+   "width": 1127,
+   "height": 1396,
+   "built": true
+  },
+  {
+   "src": "/work/overdose-new-blue-area/7.jpg",
+   "width": 1536,
+   "height": 1024,
+   "built": false
+  }
+ ],
+ "overdose-technopark": [
+  {
+   "src": "/work/overdose-technopark/1.jpg",
+   "width": 1800,
+   "height": 1013,
+   "built": false
+  },
+  {
+   "src": "/work/overdose-technopark/2.jpg",
+   "width": 1672,
+   "height": 941,
+   "built": false
+  },
+  {
+   "src": "/work/overdose-technopark/3.jpg",
+   "width": 1800,
+   "height": 1013,
+   "built": false
+  },
+  {
+   "src": "/work/overdose-technopark/4.jpg",
+   "width": 1800,
+   "height": 1013,
+   "built": false
+  },
+  {
+   "src": "/work/overdose-technopark/5.jpg",
+   "width": 1800,
+   "height": 1013,
+   "built": false
+  },
+  {
+   "src": "/work/overdose-technopark/6.jpg",
+   "width": 1672,
+   "height": 941,
+   "built": false
+  }
+ ],
+ "overdose-mm-alam": [
+  {
+   "src": "/work/overdose-mm-alam/1.jpg",
+   "width": 1800,
+   "height": 1011,
+   "built": false
+  },
+  {
+   "src": "/work/overdose-mm-alam/2.jpg",
+   "width": 1800,
+   "height": 1013,
+   "built": false
+  },
+  {
+   "src": "/work/overdose-mm-alam/3.jpg",
+   "width": 1800,
+   "height": 1009,
+   "built": false
+  },
+  {
+   "src": "/work/overdose-mm-alam/4.jpg",
+   "width": 1800,
+   "height": 1009,
+   "built": false
+  }
+ ],
+ "overdose-five-star": [
+  {
+   "src": "/work/overdose-five-star/1.jpg",
+   "width": 1280,
+   "height": 853,
+   "built": false
+  },
+  {
+   "src": "/work/overdose-five-star/2.jpg",
+   "width": 1536,
+   "height": 1024,
+   "built": false
+  },
+  {
+   "src": "/work/overdose-five-star/3.jpg",
+   "width": 1383,
+   "height": 922,
+   "built": false
+  },
+  {
+   "src": "/work/overdose-five-star/4.jpg",
+   "width": 1383,
+   "height": 922,
+   "built": false
+  },
+  {
+   "src": "/work/overdose-five-star/5.jpg",
+   "width": 1264,
+   "height": 842,
+   "built": false
+  },
+  {
+   "src": "/work/overdose-five-star/6.jpg",
+   "width": 1383,
+   "height": 922,
+   "built": false
+  }
+ ],
+ "overdose-gujrat": [
+  {
+   "src": "/work/overdose-gujrat/1.jpg",
+   "width": 1447,
+   "height": 1087,
+   "built": false
+  },
+  {
+   "src": "/work/overdose-gujrat/2.jpg",
+   "width": 1447,
+   "height": 1087,
+   "built": false
+  },
+  {
+   "src": "/work/overdose-gujrat/3.jpg",
+   "width": 1443,
+   "height": 1090,
+   "built": false
+  },
+  {
+   "src": "/work/overdose-gujrat/4.jpg",
+   "width": 1443,
+   "height": 1090,
+   "built": false
+  },
+  {
+   "src": "/work/overdose-gujrat/5.jpg",
+   "width": 1342,
+   "height": 1012,
+   "built": false
+  },
+  {
+   "src": "/work/overdose-gujrat/6.jpg",
+   "width": 1447,
+   "height": 1087,
+   "built": false
+  }
+ ],
+ "overdose-bahria-lahore": [
+  {
+   "src": "/work/overdose-bahria-lahore/1.jpg",
+   "width": 1537,
+   "height": 1023,
+   "built": false
+  },
+  {
+   "src": "/work/overdose-bahria-lahore/2.jpg",
+   "width": 1342,
+   "height": 920,
+   "built": false
+  },
+  {
+   "src": "/work/overdose-bahria-lahore/3.jpg",
+   "width": 1342,
+   "height": 920,
+   "built": false
+  },
+  {
+   "src": "/work/overdose-bahria-lahore/4.jpg",
+   "width": 1342,
+   "height": 920,
+   "built": false
+  }
+ ],
+ "overdose-express-lucky-one": [
+  {
+   "src": "/work/overdose-express-lucky-one/1.jpg",
+   "width": 973,
+   "height": 733,
+   "built": false
+  },
+  {
+   "src": "/work/overdose-express-lucky-one/2.jpg",
+   "width": 1342,
+   "height": 1012,
+   "built": false
+  },
+  {
+   "src": "/work/overdose-express-lucky-one/3.jpg",
+   "width": 1342,
+   "height": 1012,
+   "built": false
+  },
+  {
+   "src": "/work/overdose-express-lucky-one/4.jpg",
+   "width": 1342,
+   "height": 1012,
+   "built": false
+  }
+ ],
+ "overdose-express-ittehad": [
+  {
+   "src": "/work/overdose-express-ittehad/1.jpg",
+   "width": 1295,
+   "height": 732,
+   "built": false
+  },
+  {
+   "src": "/work/overdose-express-ittehad/2.jpg",
+   "width": 1344,
+   "height": 756,
+   "built": false
+  },
+  {
+   "src": "/work/overdose-express-ittehad/3.jpg",
+   "width": 1600,
+   "height": 900,
+   "built": true
+  },
+  {
+   "src": "/work/overdose-express-ittehad/4.jpg",
+   "width": 1344,
+   "height": 756,
+   "built": false
+  },
+  {
+   "src": "/work/overdose-express-ittehad/5.jpg",
+   "width": 1344,
+   "height": 756,
+   "built": false
+  }
+ ],
+ "overdose-factory": [
+  {
+   "src": "/work/overdose-factory/1.jpg",
+   "width": 1320,
+   "height": 930,
+   "built": false
+  },
+  {
+   "src": "/work/overdose-factory/2.jpg",
+   "width": 1320,
+   "height": 930,
+   "built": false
+  },
+  {
+   "src": "/work/overdose-factory/3.jpg",
+   "width": 1320,
+   "height": 930,
+   "built": false
+  },
+  {
+   "src": "/work/overdose-factory/4.jpg",
+   "width": 1320,
+   "height": 930,
+   "built": false
+  },
+  {
+   "src": "/work/overdose-factory/5.jpg",
+   "width": 1320,
+   "height": 930,
+   "built": false
+  },
+  {
+   "src": "/work/overdose-factory/6.jpg",
+   "width": 1320,
+   "height": 930,
+   "built": false
+  }
+ ],
+ "furniture": [
+  {
+   "src": "/work/furniture/1.jpg",
+   "width": 1068,
+   "height": 663,
+   "built": false
+  },
+  {
+   "src": "/work/furniture/2.jpg",
+   "width": 1070,
+   "height": 663,
+   "built": false
+  },
+  {
+   "src": "/work/furniture/3.jpg",
+   "width": 1070,
+   "height": 882,
+   "built": false
+  },
+  {
+   "src": "/work/furniture/4.jpg",
+   "width": 1080,
+   "height": 995,
+   "built": false
+  }
+ ]
+}

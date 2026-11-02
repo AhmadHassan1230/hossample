@@ -1,0 +1,15 @@
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+next-env.d.ts
+test-results/
+playwright-report/
+.DS_Store
+
+# Blender sources, raw bakes and the raw tree scan (the site ships public/studio/*.glb instead)
+_source/
+*.blend
+*.blend1
+public/assets/ph/jacaranda_tree/
+.env*

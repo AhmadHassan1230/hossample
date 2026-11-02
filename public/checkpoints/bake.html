@@ -1,0 +1,59 @@
+<!doctype html><meta charset="utf-8"><title>HoS studio — overnight bake</title>
+<style>
+body{margin:0;background:#0f0e0d;color:#eee;font:15px/1.55 system-ui;padding:28px}
+h1{font-size:22px;margin:0 0 4px}h2{font-size:18px;margin:40px 0 16px;color:#ff7a3d}
+.top{display:flex;align-items:baseline;gap:22px;flex-wrap:wrap}
+.pct{font-size:56px;font-weight:600;letter-spacing:-1px}
+.bar{height:6px;background:#26221f;border-radius:3px;margin:14px 0 6px;overflow:hidden;max-width:1600px}
+.bar i{display:block;height:100%;background:#ff5a1f;transition:width .8s}
+.meta{color:#aaa}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:22px;max-width:1600px}
+.card{background:#171513;border-radius:6px;overflow:hidden}
+.card .img{aspect-ratio:1;background:#1d1a17;display:grid;place-items:center;color:#7d746c}
+.card.probe .img{aspect-ratio:2}
+.card img{width:100%;height:100%;object-fit:contain;display:block;background:#000}
+.card .cap{padding:10px 14px;display:flex;justify-content:space-between;gap:10px}
+.card .cap span{color:#999;white-space:nowrap}
+.now .img{color:#ff7a3d;animation:p 1.6s ease-in-out infinite}
+@keyframes p{50%{opacity:.45}}
+a{color:#ff7a3d}
+</style>
+<h1>HoS studio — overnight lightmap bake</h1>
+<div class="top"><div class="pct" id="pct">…</div><div class="meta" id="meta"></div></div>
+<div class="bar"><i id="bar" style="width:0"></i></div>
+<div class="meta">Updates itself every 20 seconds · click a piece to open it full size · <a href="index.html">review renders</a></div>
+<h2>Day</h2><div class="grid" id="day"></div>
+<h2>Night</h2><div class="grid" id="night"></div>
+<script>
+const fmt = (t) => new Date(t).toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" });
+const dur = (s) => (s >= 3600 ? `${Math.floor(s / 3600)} h ${Math.round((s % 3600) / 60)} min` : s >= 60 ? `${Math.round(s / 60)} min` : `${s} s`);
+const shown = {};
+async function tick() {
+  let d;
+  try { d = await (await fetch("/api/dev/bake", { cache: "no-store" })).json(); } catch { return; }
+  document.getElementById("pct").textContent = `${Math.floor(d.percent)}%`;
+  document.getElementById("bar").style.width = `${d.percent}%`;
+  const done = d.pieces.filter((p) => p.done).length;
+  document.getElementById("meta").textContent = d.finished
+    ? `All ${d.pieces.length} pieces done · ran ${dur(Math.round(d.elapsed))}`
+    : `${done} of ${d.pieces.length} pieces · running ${dur(Math.round(d.elapsed))} · now: ${d.current.mode} — ${d.current.label} · estimated finish ${fmt(d.eta)}`;
+  for (const p of d.pieces) {
+    const id = `${p.mode}_${p.key}`;
+    const state = p.done ? `done${p.at}` : d.current && d.current.mode === p.mode && d.current.label === p.label ? "now" : "queued";
+    if (shown[id] === state) continue;
+    shown[id] = state;
+    let el = document.getElementById(id);
+    if (!el) {
+      el = document.createElement("div");
+      el.id = id;
+      document.getElementById(p.mode).appendChild(el);
+    }
+    el.className = `card${p.key.startsWith("env") ? " probe" : ""}${state === "now" ? " now" : ""}`;
+    const src = `/api/dev/bake?img=${p.file}&v=${p.at}`;
+    const img = p.done ? `<a href="${src}" target="_blank"><img src="${src}" alt=""></a>` : state === "now" ? "baking now…" : "queued";
+    el.innerHTML = `<div class="img">${img}</div><div class="cap">${p.label}<span>${p.done && p.seconds ? dur(p.seconds) : ""}</span></div>`;
+  }
+}
+tick();
+setInterval(tick, 20000);
+</script>

@@ -1,0 +1,842 @@
+{
+ "anthurium_botany_01": {
+  "k": "ph",
+  "map": "/assets/ph/anthurium_botany_01/textures/anthurium_botany_01_diff_1k.jpg",
+  "arm": "/assets/ph/anthurium_botany_01/textures/anthurium_botany_01_arm_1k.jpg",
+  "normal": "/assets/ph/anthurium_botany_01/textures/anthurium_botany_01_nor_gl_1k.jpg",
+  "alphaTest": true,
+  "rough": 1.0,
+  "metal": 0.0
+ },
+ "antique_ceramic_vase_01": {
+  "k": "ph",
+  "map": "/assets/ph/antique_ceramic_vase_01/textures/antique_ceramic_vase_01_diff_1k.jpg",
+  "arm": "/assets/ph/antique_ceramic_vase_01/textures/antique_ceramic_vase_01_arm_1k.jpg",
+  "normal": "/assets/ph/antique_ceramic_vase_01/textures/antique_ceramic_vase_01_nor_gl_1k.jpg",
+  "rough": 1.0,
+  "metal": 0.0
+ },
+ "basswood": {
+  "k": "flat",
+  "color": "#d8bf98",
+  "rough": 0.75,
+  "metal": 0.0,
+  "emit": null,
+  "strength": 0.0,
+  "trans": 0.0,
+  "coat": 0.0
+ },
+ "black_steel": {
+  "k": "flat",
+  "color": "#151413",
+  "rough": 0.38,
+  "metal": 0.85,
+  "emit": null,
+  "strength": 0.0,
+  "trans": 0.0,
+  "coat": 0.0
+ },
+ "book_encyclopedia_set_01_cover": {
+  "k": "ph",
+  "map": "/assets/ph/book_encyclopedia_set_01/textures/book_encyclopedia_set_01_cover_diff_1k.jpg",
+  "arm": "/assets/ph/book_encyclopedia_set_01/textures/book_encyclopedia_set_01_cover_arm_1k.jpg",
+  "normal": "/assets/ph/book_encyclopedia_set_01/textures/book_encyclopedia_set_01_cover_nor_gl_1k.jpg",
+  "rough": 1.0,
+  "metal": 0.0
+ },
+ "book_encyclopedia_set_01_paper": {
+  "k": "ph",
+  "map": "/assets/ph/book_encyclopedia_set_01/textures/book_encyclopedia_set_01_paper_diff_1k.jpg",
+  "arm": "/assets/ph/book_encyclopedia_set_01/textures/book_encyclopedia_set_01_paper_roughness_1k.jpg",
+  "normal": "/assets/ph/book_encyclopedia_set_01/textures/book_encyclopedia_set_01_paper_nor_gl_1k.jpg",
+  "rough": 1.0,
+  "metal": 0.0
+ },
+ "boucle": {
+  "k": "lime",
+  "color": "#f2ebe0",
+  "var": "#e2d8ca",
+  "scale": 40.0,
+  "bump": 0.35
+ },
+ "brass": {
+  "k": "flat",
+  "color": "#c9a063",
+  "rough": 0.22,
+  "metal": 1.0,
+  "emit": null,
+  "strength": 0.0,
+  "trans": 0.0,
+  "coat": 0.0
+ },
+ "brass_dark": {
+  "k": "flat",
+  "color": "#a8834e",
+  "rough": 0.35,
+  "metal": 1.0,
+  "emit": null,
+  "strength": 0.0,
+  "trans": 0.0,
+  "coat": 0.0
+ },
+ "brass_diya_lantern": {
+  "k": "ph",
+  "map": "/assets/ph/brass_diya_lantern/textures/brass_diya_lantern_diff_1k.jpg",
+  "arm": "/assets/ph/brass_diya_lantern/textures/brass_diya_lantern_arm_1k.jpg",
+  "normal": "/assets/ph/brass_diya_lantern/textures/brass_diya_lantern_nor_gl_1k.jpg",
+  "rough": 1.0,
+  "metal": 1.0
+ },
+ "brass_diya_lantern.001": {
+  "k": "ph",
+  "map": "/assets/ph/brass_diya_lantern/textures/brass_diya_lantern_diff_1k.jpg",
+  "arm": "/assets/ph/brass_diya_lantern/textures/brass_diya_lantern_arm_1k.jpg",
+  "normal": "/assets/ph/brass_diya_lantern/textures/brass_diya_lantern_nor_gl_1k.jpg",
+  "rough": 1.0,
+  "metal": 1.0
+ },
+ "brass_diya_lantern_flame": {
+  "k": "ph",
+  "map": "/assets/ph/brass_diya_lantern/textures/brass_diya_lantern_diff_1k.jpg",
+  "arm": "/assets/ph/brass_diya_lantern/textures/brass_diya_lantern_arm_1k.jpg",
+  "normal": "/assets/ph/brass_diya_lantern/textures/brass_diya_lantern_nor_gl_1k.jpg",
+  "alphaTest": true,
+  "rough": 1.0,
+  "metal": 1.0,
+  "emit": "#ffffff",
+  "strength": 1.0,
+  "glow": [
+   1.0,
+   30.0
+  ]
+ },
+ "brass_diya_lantern_glass": {
+  "k": "ph",
+  "map": "/assets/ph/brass_diya_lantern/textures/brass_diya_lantern_diff_1k.jpg",
+  "arm": "/assets/ph/brass_diya_lantern/textures/brass_diya_lantern_arm_1k.jpg",
+  "normal": "/assets/ph/brass_diya_lantern/textures/brass_diya_lantern_nor_gl_1k.jpg",
+  "alphaTest": true,
+  "rough": 1.0,
+  "metal": 1.0
+ },
+ "brass_pot_01": {
+  "k": "ph",
+  "map": "/assets/ph/brass_pot_01/textures/brass_pot_01_diff_1k.jpg",
+  "arm": "/assets/ph/brass_pot_01/textures/brass_pot_01_arm_1k.jpg",
+  "normal": "/assets/ph/brass_pot_01/textures/brass_pot_01_nor_gl_1k.jpg",
+  "rough": 1.0,
+  "metal": 1.0
+ },
+ "brass_vase_001": {
+  "k": "ph",
+  "map": "/assets/ph/brass_vase_01/textures/brass_vase_01_diff_1k.jpg",
+  "arm": "/assets/ph/brass_vase_01/textures/brass_vase_01_arm_1k.jpg",
+  "normal": "/assets/ph/brass_vase_01/textures/brass_vase_01_nor_gl_1k.jpg",
+  "rough": 1.0,
+  "metal": 1.0
+ },
+ "bulb": {
+  "k": "flat",
+  "color": "#fff6e8",
+  "rough": 0.4,
+  "metal": 0.0,
+  "emit": "#ffd9a6",
+  "strength": 0.0,
+  "trans": 0.0,
+  "coat": 0.0,
+  "glow": [
+   0.0,
+   30.0
+  ]
+ },
+ "Camera_01_body": {
+  "k": "ph",
+  "map": "/assets/ph/Camera_01/textures/Camera_01_body_diff_1k.jpg",
+  "arm": "/assets/ph/Camera_01/textures/Camera_01_body_arm_1k.jpg",
+  "normal": "/assets/ph/Camera_01/textures/Camera_01_body_nor_gl_1k.jpg",
+  "rough": 1.0,
+  "metal": 0.5
+ },
+ "Camera_01_lens": {
+  "k": "ph",
+  "color": "#e6e6e6",
+  "rough": 0.0,
+  "metal": 0.0
+ },
+ "Camera_01_lens_body": {
+  "k": "ph",
+  "map": "/assets/ph/Camera_01/textures/Camera_01_lens_body_diff_1k.jpg",
+  "arm": "/assets/ph/Camera_01/textures/Camera_01_lens_body_arm_1k.jpg",
+  "normal": "/assets/ph/Camera_01/textures/Camera_01_lens_body_nor_gl_1k.jpg",
+  "rough": 1.0,
+  "metal": 0.5
+ },
+ "Camera_01_strap": {
+  "k": "ph",
+  "map": "/assets/ph/Camera_01/textures/Camera_01_strap_diff_1k.jpg",
+  "arm": "/assets/ph/Camera_01/textures/Camera_01_strap_arm_1k.jpg",
+  "normal": "/assets/ph/Camera_01/textures/Camera_01_strap_nor_gl_1k.jpg",
+  "rough": 1.0,
+  "metal": 0.5
+ },
+ "cane": {
+  "k": "flat",
+  "color": "#c79c62",
+  "rough": 0.6,
+  "metal": 0.0,
+  "emit": null,
+  "strength": 0.0,
+  "trans": 0.0,
+  "coat": 0.0,
+  "lattice": [
+   32.0,
+   0.16,
+   3
+  ]
+ },
+ "card_jaali": {
+  "k": "flat",
+  "color": "#f4f0e8",
+  "rough": 0.85,
+  "metal": 0.0,
+  "emit": null,
+  "strength": 0.0,
+  "trans": 0.0,
+  "coat": 0.0,
+  "lattice": [
+   55.0,
+   0.085,
+   3
+  ]
+ },
+ "carved_wooden_plate": {
+  "k": "ph",
+  "map": "/assets/ph/carved_wooden_plate/textures/carved_wooden_plate_diff_1k.jpg",
+  "arm": "/assets/ph/carved_wooden_plate/textures/carved_wooden_plate_arm_1k.jpg",
+  "normal": "/assets/ph/carved_wooden_plate/textures/carved_wooden_plate_nor_gl_1k.jpg",
+  "rough": 1.0,
+  "metal": 0.0
+ },
+ "catalog_cover_m": {
+  "k": "image",
+  "rough": 0.4,
+  "emit": 0.0,
+  "src": "/studio/img/p001.jpg"
+ },
+ "ceramic_vase_02": {
+  "k": "ph",
+  "map": "/assets/ph/ceramic_vase_02/textures/ceramic_vase_02_diff_1k.jpg",
+  "arm": "/assets/ph/ceramic_vase_02/textures/ceramic_vase_02_rough_1k.jpg",
+  "normal": "/assets/ph/ceramic_vase_02/textures/ceramic_vase_02_nor_gl_1k.jpg",
+  "rough": 1.0,
+  "metal": 0.0
+ },
+ "ceramic_vase_03": {
+  "k": "ph",
+  "map": "/assets/ph/ceramic_vase_03/textures/ceramic_vase_03_diff_1k.jpg",
+  "arm": "/assets/ph/ceramic_vase_03/textures/ceramic_vase_03_rough_1k.jpg",
+  "normal": "/assets/ph/ceramic_vase_03/textures/ceramic_vase_03_nor_gl_1k.jpg",
+  "rough": 1.0,
+  "metal": 0.0
+ },
+ "court_paving": {
+  "k": "scan",
+  "set": "red_sandstone_pavement",
+  "tint": "#e0b49a",
+  "tile": 2.4,
+  "rough": 1.0,
+  "coat": 0.0
+ },
+ "desk_lamp_arm_01": {
+  "k": "ph",
+  "map": "/assets/ph/desk_lamp_arm_01/textures/desk_lamp_arm_01_diff_1k.jpg",
+  "arm": "/assets/ph/desk_lamp_arm_01/textures/desk_lamp_arm_01_arm_1k.jpg",
+  "normal": "/assets/ph/desk_lamp_arm_01/textures/desk_lamp_arm_01_nor_gl_1k.jpg",
+  "rough": 1.0,
+  "metal": 0.0
+ },
+ "desk_lamp_arm_01_light": {
+  "k": "ph",
+  "map": "/assets/ph/desk_lamp_arm_01/textures/desk_lamp_arm_01_diff_1k.jpg",
+  "arm": "/assets/ph/desk_lamp_arm_01/textures/desk_lamp_arm_01_arm_1k.jpg",
+  "normal": "/assets/ph/desk_lamp_arm_01/textures/desk_lamp_arm_01_nor_gl_1k.jpg",
+  "rough": 1.0,
+  "metal": 0.0,
+  "emit": "#fffdd1",
+  "strength": 1.0,
+  "glow": [
+   1.0,
+   18.0
+  ]
+ },
+ "dining_chair_02": {
+  "k": "ph",
+  "map": "/assets/ph/dining_chair_02/textures/dining_chair_02_diff_1k.jpg",
+  "arm": "/assets/ph/dining_chair_02/textures/dining_chair_02_arm_1k.jpg",
+  "normal": "/assets/ph/dining_chair_02/textures/dining_chair_02_nor_gl_1k.jpg",
+  "rough": 1.0,
+  "metal": 0.0
+ },
+ "fern_02": {
+  "k": "ph",
+  "map": "/assets/ph/fern_02/textures/fern_02_diff_1k.jpg",
+  "arm": "/assets/ph/fern_02/textures/fern_02_arm_1k.jpg",
+  "normal": "/assets/ph/fern_02/textures/fern_02_nor_gl_1k.jpg",
+  "alphaTest": true,
+  "rough": 1.0,
+  "metal": 0.0
+ },
+ "glass": {
+  "k": "flat",
+  "color": "#ffffff",
+  "rough": 0.0,
+  "metal": 0.0,
+  "emit": null,
+  "strength": 0.0,
+  "trans": 1.0,
+  "coat": 0.0
+ },
+ "glass_thin": {
+  "k": "glass",
+  "tint": "#f6faf8"
+ },
+ "haze": {
+  "k": "ph"
+ },
+ "int_print_m": {
+  "k": "image",
+  "rough": 0.5,
+  "emit": 0.0,
+  "src": "/work/overdose-sialkot/2.jpg"
+ },
+ "jaali_stone": {
+  "k": "scan",
+  "set": "red_sandstone_wall",
+  "tint": "#dba98d",
+  "tile": 0.8,
+  "rough": 1.0,
+  "coat": 0.0,
+  "lattice": [
+   4.2,
+   0.12,
+   3
+  ]
+ },
+ "jacaranda_model": {
+  "k": "flat",
+  "color": "#8d6fc6",
+  "rough": 0.8,
+  "metal": 0.0,
+  "emit": null,
+  "strength": 0.0,
+  "trans": 0.0,
+  "coat": 0.0
+ },
+ "jacaranda_tree_branches": {
+  "k": "ph",
+  "map": "/assets/ph/jacaranda_tree/textures/jacaranda_tree_branches_diff_1k.jpg",
+  "arm": "/assets/ph/jacaranda_tree/textures/jacaranda_tree_branches_arm_1k.jpg",
+  "normal": "/assets/ph/jacaranda_tree/textures/jacaranda_tree_branches_nor_gl_1k.jpg",
+  "rough": 1.0,
+  "metal": 0.0
+ },
+ "jacaranda_tree_leaves": {
+  "k": "ph",
+  "map": "/assets/ph/jacaranda_tree/textures/jacaranda_tree_leaves_diff_1k.jpg",
+  "arm": "/assets/ph/jacaranda_tree/textures/jacaranda_tree_leaves_arm_1k.jpg",
+  "normal": "/assets/ph/jacaranda_tree/textures/jacaranda_tree_leaves_nor_gl_1k.jpg",
+  "alphaTest": true,
+  "rough": 1.0,
+  "metal": 0.0,
+  "ramp": [
+   "#4b2f78",
+   "#c9a6f2",
+   0.0,
+   1.0
+  ]
+ },
+ "jacaranda_tree_trunk": {
+  "k": "ph",
+  "map": "/assets/ph/jacaranda_tree/textures/jacaranda_tree_trunk_diff_1k.jpg",
+  "arm": "/assets/ph/jacaranda_tree/textures/jacaranda_tree_trunk_arm_1k.jpg",
+  "normal": "/assets/ph/jacaranda_tree/textures/jacaranda_tree_trunk_nor_gl_1k.jpg",
+  "rough": 1.0,
+  "metal": 0.0
+ },
+ "leather": {
+  "k": "flat",
+  "color": "#1d1511",
+  "rough": 0.45,
+  "metal": 0.0,
+  "emit": null,
+  "strength": 0.0,
+  "trans": 0.0,
+  "coat": 0.3
+ },
+ "lime_plaster": {
+  "k": "lime",
+  "color": "#f1e8db",
+  "var": "#e3d6c4",
+  "scale": 1.4,
+  "bump": 0.07
+ },
+ "linen": {
+  "k": "scan",
+  "set": "rough_linen",
+  "tint": "#cdbba3",
+  "tile": 0.7,
+  "rough": 1.0,
+  "coat": 0.0
+ },
+ "marble_floor": {
+  "k": "scan",
+  "set": "marble_01",
+  "tint": "#e9e0d2",
+  "tile": 2.2,
+  "rough": 0.42,
+  "coat": 0.8
+ },
+ "mid_century_lounge_chair": {
+  "k": "ph",
+  "map": "/assets/ph/mid_century_lounge_chair/textures/mid_century_lounge_chair_diff_1k.jpg",
+  "arm": "/assets/ph/mid_century_lounge_chair/textures/mid_century_lounge_chair_arm_1k.jpg",
+  "normal": "/assets/ph/mid_century_lounge_chair/textures/mid_century_lounge_chair_nor_gl_1k.jpg",
+  "rough": 1.0,
+  "metal": 0.0
+ },
+ "mirror": {
+  "k": "flat",
+  "color": "#ffffff",
+  "rough": 0.02,
+  "metal": 1.0,
+  "emit": null,
+  "strength": 0.0,
+  "trans": 0.0,
+  "coat": 0.0
+ },
+ "model_card": {
+  "k": "lime",
+  "color": "#f6f2eb",
+  "var": "#ece6dc",
+  "scale": 18.0,
+  "bump": 0.015
+ },
+ "modern_arm_chair_01_legs": {
+  "k": "ph",
+  "map": "/assets/ph/modern_arm_chair_01/textures/modern_arm_chair_01_legs_diff_1k.jpg",
+  "arm": "/assets/ph/modern_arm_chair_01/textures/modern_arm_chair_01_legs_arm_1k.jpg",
+  "normal": "/assets/ph/modern_arm_chair_01/textures/modern_arm_chair_01_legs_nor_gl_1k.jpg",
+  "rough": 1.0,
+  "metal": 0.0
+ },
+ "modern_arm_chair_01_pillow": {
+  "k": "ph",
+  "map": "/assets/ph/modern_arm_chair_01/textures/modern_arm_chair_01_pillow_diff_1k.jpg",
+  "arm": "/assets/ph/modern_arm_chair_01/textures/modern_arm_chair_01_pillow_arm_1k.jpg",
+  "normal": "/assets/ph/modern_arm_chair_01/textures/modern_arm_chair_01_pillow_nor_gl_1k.jpg",
+  "rough": 1.0,
+  "metal": 0.0,
+  "ramp": [
+   "#cdbfae",
+   "#f3ede3",
+   0.0,
+   0.2
+  ]
+ },
+ "modern_ceiling_globe": {
+  "k": "ph",
+  "map": "/assets/ph/modern_ceiling_lamp_01/textures/modern_ceiling_lamp_01_diff_1k.jpg",
+  "arm": "/assets/ph/modern_ceiling_lamp_01/textures/modern_ceiling_lamp_01_arm_1k.jpg",
+  "normal": "/assets/ph/modern_ceiling_lamp_01/textures/modern_ceiling_lamp_01_nor_gl_1k.jpg",
+  "rough": 1.0,
+  "metal": 0.0,
+  "emit": "#cdc0b5",
+  "strength": 1.0,
+  "glow": [
+   1.0,
+   25.0
+  ]
+ },
+ "modern_ceiling_lamp_01": {
+  "k": "ph",
+  "map": "/assets/ph/modern_ceiling_lamp_01/textures/modern_ceiling_lamp_01_diff_1k.jpg",
+  "arm": "/assets/ph/modern_ceiling_lamp_01/textures/modern_ceiling_lamp_01_arm_1k.jpg",
+  "normal": "/assets/ph/modern_ceiling_lamp_01/textures/modern_ceiling_lamp_01_nor_gl_1k.jpg",
+  "rough": 1.0,
+  "metal": 0.0
+ },
+ "modern_ceiling_lamp_01_glass": {
+  "k": "ph",
+  "map": "/assets/ph/modern_ceiling_lamp_01/textures/modern_ceiling_lamp_01_diff_1k.jpg",
+  "arm": "/assets/ph/modern_ceiling_lamp_01/textures/modern_ceiling_lamp_01_arm_1k.jpg",
+  "normal": "/assets/ph/modern_ceiling_lamp_01/textures/modern_ceiling_lamp_01_nor_gl_1k.jpg",
+  "rough": 1.0,
+  "metal": 0.0,
+  "glow": [
+   0.0,
+   2.6
+  ]
+ },
+ "monitor_img_0_m": {
+  "k": "image",
+  "rough": 0.25,
+  "emit": 0.8,
+  "src": "/work/overdose-five-star/1.jpg",
+  "glow": [
+   0.800000011920929,
+   2.4
+  ]
+ },
+ "monitor_img_1_m": {
+  "k": "image",
+  "rough": 0.25,
+  "emit": 0.8,
+  "src": "/work/loop-heuser/1.jpg",
+  "glow": [
+   0.800000011920929,
+   2.4
+  ]
+ },
+ "neon": {
+  "k": "flat",
+  "color": "#ffd6bb",
+  "rough": 0.3,
+  "metal": 0.0,
+  "emit": "#ff5a14",
+  "strength": 0.0,
+  "trans": 0.0,
+  "coat": 0.0,
+  "glow": [
+   0.0,
+   26.0
+  ]
+ },
+ "oak": {
+  "k": "scan",
+  "set": "oak_veneer_01",
+  "tint": "#c99a6a",
+  "tile": 0.9,
+  "rough": 0.7,
+  "coat": 0.25
+ },
+ "pachira_aquatica_01_bark": {
+  "k": "ph",
+  "map": "/assets/ph/pachira_aquatica_01/textures/pachira_aquatica_01_bark_diff_1k.jpg",
+  "arm": "/assets/ph/pachira_aquatica_01/textures/pachira_aquatica_01_bark_arm_1k.jpg",
+  "normal": "/assets/ph/pachira_aquatica_01/textures/pachira_aquatica_01_bark_nor_gl_1k.jpg",
+  "rough": 1.0,
+  "metal": 0.0
+ },
+ "pachira_aquatica_01_leaves": {
+  "k": "ph",
+  "map": "/assets/ph/pachira_aquatica_01/textures/pachira_aquatica_01_leaves_diff_1k.jpg",
+  "arm": "/assets/ph/pachira_aquatica_01/textures/pachira_aquatica_01_leaves_arm_1k.jpg",
+  "normal": "/assets/ph/pachira_aquatica_01/textures/pachira_aquatica_01_leaves_nor_gl_1k.jpg",
+  "rough": 1.0,
+  "metal": 0.0
+ },
+ "paper": {
+  "k": "flat",
+  "color": "#f5f1e9",
+  "rough": 0.85,
+  "metal": 0.0,
+  "emit": null,
+  "strength": 0.0,
+  "trans": 0.0,
+  "coat": 0.0
+ },
+ "petal": {
+  "k": "flat",
+  "color": "#9d7fd6",
+  "rough": 0.6,
+  "metal": 0.0,
+  "emit": null,
+  "strength": 0.0,
+  "trans": 0.0,
+  "coat": 0.0
+ },
+ "plan_0_m": {
+  "k": "image",
+  "rough": 0.85,
+  "emit": 0.0,
+  "src": "/studio/img/p012-1-1398x1126.jpg"
+ },
+ "plan_1_m": {
+  "k": "image",
+  "rough": 0.85,
+  "emit": 0.0,
+  "src": "/studio/img/p012-2-770x1262.jpg"
+ },
+ "plan_2_m": {
+  "k": "image",
+  "rough": 0.85,
+  "emit": 0.0,
+  "src": "/studio/img/p012-3-1115x1268.jpg"
+ },
+ "potted_plant_01_leaves": {
+  "k": "ph",
+  "map": "/assets/ph/potted_plant_01/textures/potted_plant_01_leaves_diff_1k.jpg",
+  "arm": "/assets/ph/potted_plant_01/textures/potted_plant_01_leaves_rough_1k.jpg",
+  "normal": "/assets/ph/potted_plant_01/textures/potted_plant_01_leaves_nor_gl_1k.jpg",
+  "alphaTest": true,
+  "rough": 1.0,
+  "metal": 0.0
+ },
+ "potted_plant_01_pot": {
+  "k": "ph",
+  "map": "/assets/ph/potted_plant_01/textures/potted_plant_01_pot_diff_1k.jpg",
+  "arm": "/assets/ph/potted_plant_01/textures/potted_plant_01_pot_rough_1k.jpg",
+  "normal": "/assets/ph/potted_plant_01/textures/potted_plant_01_pot_nor_gl_1k.jpg",
+  "rough": 1.0,
+  "metal": 0.0
+ },
+ "red_sandstone": {
+  "k": "ashlar",
+  "c1": "#a5583f",
+  "c2": "#bb7055",
+  "mortar": "#cf967c",
+  "bw": 0.9,
+  "rh": 0.42
+ },
+ "reflector": {
+  "k": "flat",
+  "color": "#d6d8da",
+  "rough": 0.3,
+  "metal": 1.0,
+  "emit": null,
+  "strength": 0.0,
+  "trans": 0.0,
+  "coat": 0.0,
+  "lattice": [
+   26.0,
+   0.3,
+   2
+  ]
+ },
+ "rug": {
+  "k": "lime",
+  "color": "#b99a78",
+  "var": "#a5835f",
+  "scale": 30.0,
+  "bump": 0.25
+ },
+ "sandstone_band": {
+  "k": "scan",
+  "set": "red_sandstone_pavement",
+  "tint": "#c98d72",
+  "tile": 1.2,
+  "rough": 0.5,
+  "coat": 0.5
+ },
+ "screen": {
+  "k": "flat",
+  "color": "#0b0b0b",
+  "rough": 0.2,
+  "metal": 0.0,
+  "emit": "#a9b8d0",
+  "strength": 0.6,
+  "trans": 0.0,
+  "coat": 0.0
+ },
+ "shade_linen": {
+  "k": "scan",
+  "set": "rough_linen",
+  "tint": "#efe4d4",
+  "tile": 0.7,
+  "rough": 1.0,
+  "coat": 0.0,
+  "glow": [
+   0.0,
+   1.4
+  ]
+ },
+ "sheesham": {
+  "k": "scan",
+  "set": "oak_veneer_01",
+  "tint": "#7a3c20",
+  "tile": 0.7,
+  "rough": 0.5,
+  "coat": 0.5
+ },
+ "side_table_01": {
+  "k": "ph",
+  "map": "/assets/ph/side_table_01/textures/side_table_01_diff_1k.jpg",
+  "arm": "/assets/ph/side_table_01/textures/side_table_01_arm_1k.jpg",
+  "normal": "/assets/ph/side_table_01/textures/side_table_01_nor_gl_1k.jpg",
+  "rough": 1.0,
+  "metal": 0.0
+ },
+ "silver": {
+  "k": "flat",
+  "color": "#e8e8e8",
+  "rough": 0.35,
+  "metal": 1.0,
+  "emit": null,
+  "strength": 0.0,
+  "trans": 0.0,
+  "coat": 0.0
+ },
+ "softbox": {
+  "k": "flat",
+  "color": "#ffffff",
+  "rough": 1.0,
+  "metal": 0.0,
+  "emit": "#fff4e8",
+  "strength": 4.0,
+  "trans": 0.0,
+  "coat": 0.0,
+  "glow": [
+   4.0,
+   4.0
+  ]
+ },
+ "softbox_fabric": {
+  "k": "flat",
+  "color": "#0e0d0d",
+  "rough": 0.75,
+  "metal": 0.0,
+  "emit": null,
+  "strength": 0.0,
+  "trans": 0.0,
+  "coat": 0.0
+ },
+ "sw_0": {
+  "k": "scan",
+  "set": "red_sandstone_wall",
+  "tint": "#ffffff",
+  "tile": 0.3,
+  "rough": 1.0,
+  "coat": 0.0
+ },
+ "sw_1": {
+  "k": "scan",
+  "set": "marble_01",
+  "tint": "#ffffff",
+  "tile": 0.3,
+  "rough": 1.0,
+  "coat": 0.0
+ },
+ "sw_2": {
+  "k": "scan",
+  "set": "oak_veneer_01",
+  "tint": "#ffffff",
+  "tile": 0.3,
+  "rough": 1.0,
+  "coat": 0.0
+ },
+ "sw_3": {
+  "k": "scan",
+  "set": "wool_boucle",
+  "tint": "#ffffff",
+  "tile": 0.3,
+  "rough": 1.0,
+  "coat": 0.0
+ },
+ "sw_4": {
+  "k": "scan",
+  "set": "rough_linen",
+  "tint": "#ffffff",
+  "tile": 0.3,
+  "rough": 1.0,
+  "coat": 0.0
+ },
+ "sw_5": {
+  "k": "scan",
+  "set": "red_sandstone_pavement",
+  "tint": "#ffffff",
+  "tile": 0.3,
+  "rough": 1.0,
+  "coat": 0.0
+ },
+ "sweep": {
+  "k": "flat",
+  "color": "#e3ddd3",
+  "rough": 0.95,
+  "metal": 0.0,
+  "emit": null,
+  "strength": 0.0,
+  "trans": 0.0,
+  "coat": 0.0
+ },
+ "table_plan_0_m": {
+  "k": "image",
+  "rough": 0.85,
+  "emit": 0.0,
+  "src": "/studio/img/p012-1-1398x1126.jpg"
+ },
+ "table_plan_1_m": {
+  "k": "image",
+  "rough": 0.85,
+  "emit": 0.0,
+  "src": "/studio/img/p012-2-770x1262.jpg"
+ },
+ "vault_plaster": {
+  "k": "lime",
+  "color": "#f7f1e8",
+  "var": "#ece2d4",
+  "scale": 0.9,
+  "bump": 0.04
+ },
+ "walnut": {
+  "k": "scan",
+  "set": "oak_veneer_01",
+  "tint": "#5e3b26",
+  "tile": 0.8,
+  "rough": 0.6,
+  "coat": 0.35
+ },
+ "water": {
+  "k": "flat",
+  "color": "#0f2a2c",
+  "rough": 0.03,
+  "metal": 0.0,
+  "emit": null,
+  "strength": 0.0,
+  "trans": 0.6,
+  "coat": 1.0
+ },
+ "wooden_stool_01": {
+  "k": "ph",
+  "map": "/assets/ph/wooden_stool_01/textures/wooden_stool_01_diff_1k.jpg",
+  "arm": "/assets/ph/wooden_stool_01/textures/wooden_stool_01_rough_1k.jpg",
+  "normal": "/assets/ph/wooden_stool_01/textures/wooden_stool_01_nor_gl_1k.jpg",
+  "rough": 1.0,
+  "metal": 0.0
+ },
+ "work_0_m": {
+  "k": "image",
+  "rough": 0.55,
+  "emit": 0.0,
+  "src": "/work/overdose-technopark/1.jpg"
+ },
+ "work_1_m": {
+  "k": "image",
+  "rough": 0.55,
+  "emit": 0.0,
+  "src": "/work/loop-bukhari/1.jpg"
+ },
+ "work_2_m": {
+  "k": "image",
+  "rough": 0.55,
+  "emit": 0.0,
+  "src": "/work/overdose-sialkot/1.jpg"
+ },
+ "work_3_m": {
+  "k": "image",
+  "rough": 0.55,
+  "emit": 0.0,
+  "src": "/work/overdose-mm-alam/1.jpg"
+ },
+ "work_4_m": {
+  "k": "image",
+  "rough": 0.55,
+  "emit": 0.0,
+  "src": "/work/od-loop-tipu/1.jpg"
+ },
+ "work_5_m": {
+  "k": "image",
+  "rough": 0.55,
+  "emit": 0.0,
+  "src": "/work/loop-dolmen/1.jpg"
+ }
+}

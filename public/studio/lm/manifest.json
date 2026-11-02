@@ -1,0 +1,90 @@
+{
+ "day": {
+  "floor": {
+   "url": "/studio/lm/day_floor.webp",
+   "scale": 3.3771684169769287,
+   "v": 1793558045
+  },
+  "shell": {
+   "url": "/studio/lm/day_shell.webp",
+   "scale": 6.216235637664795,
+   "v": 1793558925
+  },
+  "left": {
+   "url": "/studio/lm/day_left.webp",
+   "scale": 3.0999794006347656,
+   "v": 1793559044
+  },
+  "centre": {
+   "url": "/studio/lm/day_centre.webp",
+   "scale": 1.6802831888198853,
+   "v": 1793559156
+  },
+  "right": {
+   "url": "/studio/lm/day_right.webp",
+   "scale": 3.729306936264038,
+   "v": 1793559334
+  },
+  "court": {
+   "url": "/studio/lm/day_court.webp",
+   "scale": 6.20317268371582,
+   "v": 1793559615
+  },
+  "env": {
+   "url": "/studio/lm/env_day.exr",
+   "v": 1793559743
+  },
+  "env_left": {
+   "url": "/studio/lm/env_left_day.exr",
+   "v": 1793559910
+  },
+  "env_right": {
+   "url": "/studio/lm/env_right_day.exr",
+   "v": 1793560131
+  }
+ },
+ "night": {
+  "floor": {
+   "url": "/studio/lm/night_floor.webp",
+   "scale": 1.6919314861297607,
+   "v": 1793562940
+  },
+  "shell": {
+   "url": "/studio/lm/night_shell.webp",
+   "scale": 9.91796875,
+   "v": 1793564458
+  },
+  "left": {
+   "url": "/studio/lm/night_left.webp",
+   "scale": 3.4681549072265625,
+   "v": 1793564606
+  },
+  "centre": {
+   "url": "/studio/lm/night_centre.webp",
+   "scale": 12.0,
+   "v": 1793564777
+  },
+  "right": {
+   "url": "/studio/lm/night_right.webp",
+   "scale": 5.284293174743652,
+   "v": 1793565088
+  },
+  "court": {
+   "url": "/studio/lm/night_court.webp",
+   "scale": 6.751155376434326,
+   "v": 1793565518
+  },
+  "env": {
+   "url": "/studio/lm/env_night.exr",
+   "v": 1793565659
+  },
+  "env_left": {
+   "url": "/studio/lm/env_left_night.exr",
+   "v": 1793565793
+  },
+  "env_right": {
+   "url": "/studio/lm/env_right_night.exr",
+   "v": 1793565933
+  }
+ }
+}

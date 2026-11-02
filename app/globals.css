@@ -1,0 +1,122 @@
+/* House of Sultana — provisional tokens, drawn from the HoS catalog (blush/rose plaster). */
+:root {
+  /* Dark studio palette */
+  --bg: #0b0909;
+  --bg-2: #141110;
+  --bg-3: #1e1a18;
+  --fg: #efe6dd;
+  --fg-2: #c9bdb3;
+  --muted: #958680;
+  --rose: #ff5a1f;
+  --rose-soft: #c97a52;
+  --line: rgba(239, 230, 221, 0.1);
+  /* aliases used by components */
+  --blush: var(--bg);
+  --blush-2: var(--bg-3);
+  --blush-3: #2a2421;
+  --ink: var(--fg);
+  --ink-2: var(--fg-2);
+  --ink-soft: var(--fg-2);
+  --cream: var(--bg);
+  --clay: var(--rose);
+  --oak: #b98a5d;
+  --gutter: clamp(16px, 2vw, 32px);
+  --header: 76px;
+  --ease: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-io: cubic-bezier(0.65, 0, 0.35, 1);
+  color-scheme: dark;
+  --font-mono: var(--font-geist-mono);
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+html.lenis, html.lenis body { height: auto; }
+.lenis.lenis-smooth { scroll-behavior: auto !important; }
+body {
+  margin: 0;
+  background: var(--blush);
+  color: var(--ink);
+  font-family: var(--font-sans), system-ui, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+img { display: block; max-width: 100%; }
+a { color: inherit; text-decoration: none; }
+button { font: inherit; color: inherit; background: none; border: 0; padding: 0; cursor: pointer; }
+::selection { background: var(--rose); color: var(--bg); }
+:focus-visible { outline: 2px solid var(--fg); outline-offset: 3px; }
+
+/* Type */
+.display {
+  font-family: var(--font-display), "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  letter-spacing: -0.045em;
+  line-height: 0.92;
+}
+.h1 { font-size: clamp(54px, 6.4vw, 118px); }
+.h2 { font-size: clamp(40px, 4.4vw, 82px); }
+.h3 { font-size: clamp(26px, 2.1vw, 36px); line-height: 1.02; letter-spacing: -0.03em; }
+.mono {
+  font-family: var(--font-display), sans-serif;
+  font-weight: 500;
+  font-size: 11.5px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.muted { color: var(--muted); }
+.lede { font-size: clamp(17px, 1.25vw, 20px); line-height: 1.45; max-width: 34ch; }
+
+/* Buttons: filled only */
+.btn {
+  display: inline-flex; align-items: center; gap: 10px;
+  height: 46px; padding: 0 20px;
+  background: var(--fg); color: var(--bg);
+  border-radius: 3px;
+  font-size: 14.5px; font-weight: 500; letter-spacing: 0.005em;
+  transition: background 0.35s var(--ease), color 0.35s var(--ease), transform 0.35s var(--ease);
+  white-space: nowrap;
+}
+.btn:hover { background: #fff; }
+.btn--soft { background: rgba(239, 230, 221, 0.08); color: var(--fg); }
+.btn--soft:hover { background: rgba(239, 230, 221, 0.15); }
+.btn--cream { background: var(--fg); color: var(--bg); }
+.btn--cream:hover { background: #fff; }
+.btn .arrow { transition: transform 0.4s var(--ease); }
+.btn:hover .arrow { transform: translateX(3px); }
+.link {
+  background: linear-gradient(currentColor, currentColor) 0 100% / 100% 1px no-repeat;
+  padding-bottom: 2px;
+  transition: background-size 0.45s var(--ease);
+}
+.link:hover { background-size: 0% 1px; background-position: 100% 100%; }
+
+/* Layout: the header floats; pages start below it, the home hero runs underneath it */
+main { padding-top: var(--header); }
+main:has(> .atl), main:has(> .jr), main:has(> .studio) { padding-top: 0; }
+
+/* Layout */
+.wrap { padding-left: var(--gutter); padding-right: var(--gutter); }
+.section { padding-top: clamp(80px, 9vw, 150px); padding-bottom: clamp(80px, 9vw, 150px); }
+.band-ink { background: var(--bg-2); color: var(--fg); }
+.band-ink .muted { color: var(--muted); }
+.band-cream { background: var(--bg-2); }
+
+/* Reveal on scroll */
+.reveal { opacity: 0; transform: translateY(28px); transition: opacity 1s var(--ease), transform 1.2s var(--ease); }
+.reveal.is-in { opacity: 1; transform: none; }
+.img-reveal { overflow: hidden; }
+.img-reveal img { transform: scale(1.08); transition: transform 1.6s var(--ease); }
+.img-reveal.is-in img { transform: none; }
+
+/* Page transition curtain (arch) */
+.curtain { position: fixed; inset: 0; z-index: 200; pointer-events: none; }
+.curtain svg { width: 100%; height: 100%; display: block; }
+
+/* Inner pages */
+.page { padding-top: clamp(50px, 6vw, 100px); }
+.page__head { display: grid; grid-template-columns: 1.2fr 1fr; gap: clamp(24px, 4vw, 80px); align-items: end; margin-bottom: clamp(40px, 5vw, 80px); }
+.page__head .h1 { margin: 0; font-size: clamp(64px, 9vw, 168px); }
+.page__head .lede { margin: 0; max-width: 34ch; }
